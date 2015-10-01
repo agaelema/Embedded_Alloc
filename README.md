@@ -10,7 +10,7 @@ A defined buffer is used to allocate the variables (buffer limit of 65535 bytes)
 Allocated variable:
 *	--------------------------------------------------------
 *	| Variable size | Allocated (Yes/No) | Variable n-size |
-*	|     2 Bytes   |       1 Byte       |      n*Bytes    |
+*	|-----2 Bytes----|----------1 Byte--------|------n*Bytes-----|
 *	--------------------------------------------------------
 
 When the buffer is initiated the first meta_head is initialized serving as base for the upcoming allocation. It's possible to work with more than one buffer.
